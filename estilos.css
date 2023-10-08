@@ -1,0 +1,250 @@
+*{
+ box-sizing: border box;
+ margin: 0;
+ padding: 0;
+ text-decoration: none;
+ } 
+ html{
+   font-size: 11px;
+ }
+/*body*/
+ body{
+  height: 100%;
+  width: 100%;
+ }
+ body{
+  box-sizing: border box;
+   margin: 0;
+   padding: 0;
+   background-image: url(./imagenes/portada\ 1bis.png);
+   }
+   a{
+    text-decoration: none;
+   }
+  
+  .flex-container{
+     margin: 0;
+     padding: 0;
+     width: 100%;
+  }
+   /*navegacion*/
+   .nav{
+    height: 70px;
+    width: 100%;
+   }
+    .titulo{
+        background-color: rgba(98, 103, 117, 0.616);
+        width: 80%;
+        padding: 3px 3px;
+        margin: 5px auto;
+        text-align: center;
+        font-size:  2rem;
+        color: white;
+        border-radius: 15px;
+        border: 1px solid rgb(162, 162, 231);
+        }
+    
+        /*section*/
+     .logos{
+          display: flex;
+          margin: 20px auto;
+          width: 90%;
+          }
+      .linkUno{
+           width: 50%;
+          display: flex; 
+          display: inline-block;
+       }
+     .linkDos{
+          display: flex;
+          display: inline-block;
+          width: 50%;
+         }
+     .link{
+      display: flex;
+      display: inline-block;
+     }
+   .mi-logo1{
+    display: flex;
+    display: inline-block;
+    margin-top: 1px;
+    margin-left: 40px;
+    width: 320px;
+    height: 320px;
+   }
+   .videos1{ 
+    display: flex;
+    display: inline-block;
+    margin-bottom: 85px;
+    margin-left: 70px;
+    width: 175px;
+    height: 175px;
+ }
+  .videos1:hover{
+    border-bottom: 2px solid  rgb(220, 199, 199);
+    opacity: 0.8;
+    }
+  .grupo{
+    margin-top: 60px;
+    margin-left: 50px;
+    width: 175px;
+    height: 175px;
+     }
+     .grupo:hover{
+      border-bottom: solid 2px white;
+      opacity: 0.8;
+        }
+  
+   .twits{
+    margin-top: 60px;
+    margin-left: 70px;
+    width: 175px;
+    height: 175px;
+     }
+     .twits:hover{
+       border-bottom: solid 2px white;
+       opacity: 0.8;
+       }
+       article{
+        width: 80%;
+        margin: 60px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       }
+       .stiker{
+        border-radius: 50px;
+        margin-right: 180px;
+        margin-left: 180px;
+        display: flex;
+         width: 80px;
+         height: 80px;
+      }
+      .stiker:hover{
+        background-color: rgba(63, 63, 180, 0.527);
+        border: 1px solid rgb(10, 72, 15);
+        opacity: 0.5;
+     }
+    
+    /*footer*/
+     footer{
+      position: absolute;
+      bottom: 0;
+      text-align: left;   
+       }
+       h2{
+        color: rgb(21, 23, 25);
+        font-size: 14px;
+        padding: 5px 15px;
+        margin-bottom: 0;
+       background-color: rgba(98, 103, 117, 0.616);
+       opacity: 0.6;
+       }
+    /*responsive*/  
+   @media (max-width:576px){
+   
+    body{
+      box-sizing: border box;
+       margin: 0;
+       padding: 0;
+       background-image: url(./imagenes/responsiveDos.png),no repeat;
+       width: 100%;
+       height: 100vh;
+       }
+   
+ 
+   .logos{
+    display: flex;
+    display: block;
+    justify-content: center;
+    width: 90%;
+    margin: 20px auto;
+   }
+    .linkUno{
+      width: 95%;
+      height: 200px;
+      margin-top: 50px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .linkDos{
+      display: flex;
+      justify-content: space-between;
+      width: 95%;
+      margin-bottom: 50px;
+    }
+    .link{
+      display: flex;
+      margin: 2px auto;
+      display: inline-block;
+   }
+    .mi-logo1{
+      width:160px;
+      height: 160px;
+    }
+    .videos1{
+      width:120px;
+      height: 130px;
+      margin-top: 20px;
+    }
+    .grupo{
+      margin-top: 20px;
+      width: 120px;
+      height: 130px;
+       }
+       .twits{
+        margin-top: 20px;
+        width: 120px;
+        height: 130px;
+      }
+    .div-coment{
+      margin-top: 30px;
+
+     }
+     .stiker{
+      margin-right: 60px;
+      margin-left: 60px;
+      display: flex;
+       width: 50px;
+       height: 50px;
+    }
+     footer{
+      width: 70%;
+     }
+    }
+
+
+ 
+  
+   
+
+     
+       
+     
+     
+      
+      
+ 
+
+ 
+  
+
+   
+     
+
+  
+    
+    
+
+
+
+
+
+
+  
+
+
+ 
+
+
+
