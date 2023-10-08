@@ -141,13 +141,13 @@
        opacity: 0.6;
        }
     /*responsive*/  
-   @media (max-width:576px){
+   @media (max-width:992px){
    
     body{
       box-sizing: border box;
        margin: 0;
        padding: 0;
-       background-image: url(./imagenes/responsiveDos.png),no repeat;
+       background-image: url(./imagenes/portada\ 11.png),no repeat;
        width: 100%;
        height: 100vh;
        }
