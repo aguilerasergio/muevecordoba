@@ -9,7 +9,7 @@
  }
 /*body*/
  body{
-  height: 100%;
+  height: 100vmax;
   width: 100%;
  }
  body{
@@ -27,80 +27,61 @@
      padding: 0;
      width: 100%;
   }
-   /*navegacion*/
-   .nav{
-    height: 70px;
-    width: 100%;
-   }
-    .titulo{
-        background-color: rgba(98, 103, 117, 0.616);
-        width: 80%;
-        padding: 3px 3px;
-        margin: 5px auto;
-        text-align: center;
-        font-size:  2rem;
-        color: white;
-        border-radius: 15px;
-        border: 1px solid rgb(162, 162, 231);
-        }
-    
-        /*section*/
-     .logos{
+    /*section*/
+     .nav{
           display: flex;
-          margin: 20px auto;
-          width: 90%;
+          justify-content: center;
+          margin: 70px auto;
+          width: 80%;
+          height: 300px;
           }
-      .linkUno{
+      .navUno{
            width: 50%;
           display: flex; 
-          display: inline-block;
+          justify-content: space-around;
        }
-     .linkDos{
+     .navDos{
           display: flex;
-          display: inline-block;
-          width: 50%;
+          justify-content: space-around;
+          width: 40%;
          }
      .link{
       display: flex;
       display: inline-block;
      }
-   .mi-logo1{
+   .miLogo{
     display: flex;
     display: inline-block;
     margin-top: 1px;
-    margin-left: 40px;
-    width: 320px;
-    height: 320px;
+    width: 300px;
+    height: 300px;
    }
-   .videos1{ 
+   .videos{ 
     display: flex;
     display: inline-block;
-    margin-bottom: 85px;
-    margin-left: 70px;
-    width: 175px;
-    height: 175px;
+    margin-top: 65px;
+    width: 170px;
+    height: 170px;
  }
-  .videos1:hover{
+  .videos:hover{
     border-bottom: 2px solid  rgb(220, 199, 199);
     opacity: 0.8;
     }
   .grupo{
     margin-top: 60px;
-    margin-left: 50px;
     width: 175px;
     height: 175px;
-     }
+    }
      .grupo:hover{
       border-bottom: solid 2px white;
       opacity: 0.8;
-        }
+    }
   
    .twits{
     margin-top: 60px;
-    margin-left: 70px;
-    width: 175px;
-    height: 175px;
-     }
+    width: 165px;
+    height: 165px;
+    }
      .twits:hover{
        border-bottom: solid 2px white;
        opacity: 0.8;
@@ -133,86 +114,107 @@
       text-align: left;   
        }
        h2{
-        color: rgb(21, 23, 25);
+        color: rgb(6, 7, 9);
         font-size: 14px;
         padding: 5px 15px;
         margin-bottom: 0;
-       background-color: rgba(98, 103, 117, 0.616);
-       opacity: 0.6;
+       background-color: rgba(160, 174, 214, 0.616);
        }
     /*responsive*/  
    @media (max-width:992px){
    
     body{
-      box-sizing: border box;
-       margin: 0;
-       padding: 0;
-       background-image: url(./imagenes/portada\ 11.png),no repeat;
+       background-image: url(./imagenes/portada\ 11.png),no-repeat, cover;
        width: 100%;
-       height: 100vh;
+       height: 100vh
        }
-   
- 
-   .logos{
-    display: flex;
-    display: block;
-    justify-content: center;
-    width: 90%;
-    margin: 20px auto;
+       
+     .nav{
+    margin-top: 60px;
+    height: 240px;
    }
-    .linkUno{
-      width: 95%;
-      height: 200px;
-      margin-top: 50px;
-      display: flex;
-      justify-content: space-between;
+    .navUno{
+      height: 160px;
     }
-    .linkDos{
-      display: flex;
-      justify-content: space-between;
-      width: 95%;
-      margin-bottom: 50px;
+    .navDos{
+      height: 160px;
+
     }
     .link{
       display: flex;
       margin: 2px auto;
       display: inline-block;
    }
-    .mi-logo1{
-      width:160px;
-      height: 160px;
-    }
-    .videos1{
+   .miLogo{
+    width: 220px;
+    height: 220px;
+   }
+  
+    .videos{
       width:120px;
       height: 130px;
-      margin-top: 20px;
     }
     .grupo{
-      margin-top: 20px;
       width: 120px;
       height: 130px;
        }
        .twits{
-        margin-top: 20px;
         width: 120px;
         height: 130px;
       }
-    .div-coment{
-      margin-top: 30px;
+      article{
+        width: 70%;
+       }
+     }
+  @media(max-width:768px){
+    body{
+       width: 100%;
+       height: 768px;
+     }
+    body{
+     background-image:url(./imagenes/768.2.png);
+      width: 100%;
+      height: 100vh;
+      background-size: cover;
+    }
+    footer{
+      position: absolute;
+      bottom: 0;
+      margin-top: 100px;
+     }
+    .nav{
+      margin-top: 100px;
+      height: 240px;
 
      }
-     .stiker{
-      margin-right: 60px;
-      margin-left: 60px;
-      display: flex;
-       width: 50px;
-       height: 50px;
-    }
-     footer{
-      width: 70%;
+     .miLogo{
+      width: 200px;
+      height: 200px;
      }
+     .videos{
+      width:100px;
+      height: 100px;
     }
-
+    .grupo{
+      width: 100px;
+      height: 100px;
+       }
+       .twits{
+        width: 100px;
+        height: 100px;
+      }
+      .navTres{
+        width: 70%;
+        margin-top: 110px;
+       }
+       .stiker{
+        margin-right: 30px;
+        margin-left: 30px;
+         width: 60px;
+         height: 60px;
+      }
+   
+  }
 
  
   
