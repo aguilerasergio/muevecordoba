@@ -8,30 +8,29 @@
    font-size: 11px;
  }
 /*body*/
- body{
-  height: 100vmax;
+
+ .flex-container{
+  margin: 0;
+  padding: 0;
   width: 100%;
+  height: 100vh;
  }
  body{
-  box-sizing: border box;
-   margin: 0;
-   padding: 0;
-   background-image: url(./imagenes/portada\ 1bis.png);
+   
+   background-image: url(./imagenes/portada\ 111.png);
+   background-size: cover;
+    background-repeat: no-repeat;
    }
    a{
     text-decoration: none;
    }
   
-  .flex-container{
-     margin: 0;
-     padding: 0;
-     width: 100%;
-  }
+ 
     /*section*/
      .nav{
           display: flex;
           justify-content: center;
-          margin: 70px auto;
+          margin: 60px auto;
           width: 80%;
           height: 300px;
           }
@@ -88,7 +87,7 @@
        }
        article{
         width: 80%;
-        margin: 60px auto;
+        margin: 70px auto;
         display: flex;
         justify-content: space-between;
         align-items: center;
