@@ -124,12 +124,11 @@
    @media (max-width:992px){
    
     body{
-       background-image: url(./imagenes/portada\ 11.png),no-repeat, cover;
-       width: 100%;
+       background-image: url(./imagenes/portada\ 11.png),no-repeat;
+       background-size: cover;
        height: 100vh
        }
-       
-     .nav{
+      .nav{
     margin-top: 60px;
     height: 240px;
    }
@@ -138,7 +137,6 @@
     }
     .navDos{
       height: 160px;
-
     }
     .link{
       display: flex;
